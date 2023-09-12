@@ -1,0 +1,88 @@
+/* AdminOrder.css */
+.App {
+    font-family: Arial, sans-serif;
+  }
+  
+  .App-header {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  .App-main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  /* AdminOrder.css */
+/* ... Other styles ... */
+
+/* Search and Filter styles */
+.Box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .Input {
+    width: 300px;
+    margin-right: 10px;
+  }
+
+  .Box {
+    /* ... Existing styles ... */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .Button {
+    /* ... Existing styles ... */
+    background-color: #ff6347; /* Coral color */
+  }
+  
+  .Select {
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  .Button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* ... Other styles ... */
+  
+  
+  .user-section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .user-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .user-item p {
+    margin: 5px 0;
+  }
+  

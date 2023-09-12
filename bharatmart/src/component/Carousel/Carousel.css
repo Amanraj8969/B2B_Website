@@ -1,0 +1,38 @@
+/* Carousel.css */
+
+.carousel-container {
+    /* background-color: #f5f5f5; Background color for the container */
+    padding: 20px 0; /* Add padding to the top and bottom */
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Heading color */
+  }
+  
+  /* Style for the Carousel component */
+  .carousel {
+    max-width: 100%;
+  }
+  
+  /* Style for the partner images */
+  .carousel .slide img {
+    width: auto;
+    height: 200px; /* Adjust the height as per your design */
+    object-fit: cover; /* Ensure images cover the entire slide */
+    border: 1px solid #ddd; /* Border for images (optional) */
+    border-radius: 5px; /* Rounded corners (optional) */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Box shadow (optional) */
+  }
+  
+  /* Style for the navigation arrows (optional) */
+  .carousel .control-arrow {
+    background-color: #333;
+  }
+  
+  /* Style for the navigation arrows on hover (optional) */
+  .carousel .control-arrow:hover {
+    background-color: #555;
+  }

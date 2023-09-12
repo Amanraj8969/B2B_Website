@@ -1,0 +1,68 @@
+/* OrderPage.css */
+
+/* Style for the orders container */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Style for individual order boxes */
+.order-box {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+  width: 100%; /* Span full width */
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  align-items: center;
+  justify-content: space-between; /* Space between image and details */
+}
+
+/* Style for order image */
+.order-image {
+  max-width: 100px;
+  height: auto;
+  margin-right: 16px;
+}
+
+/* Style for order details */
+.order-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for individual order detail items */
+.order-detail {
+  margin: 4px 0;
+}
+/* OrderPage.css */
+
+/* ... your existing styles ... */
+
+/* Style for sorting component */
+.sorting-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.sorting-label {
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.sorting-select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+}

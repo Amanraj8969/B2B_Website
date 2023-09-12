@@ -1,0 +1,95 @@
+/* ContactPage.css */
+
+body {
+  padding-top: 60px; /* Adjust this value to match your navbar height */
+}
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  /* background-color: #d3b4a7; Change to your desired tea color */
+  margin-top: 20px;
+}
+
+.contact-box {
+  flex: 1 1 calc(50% - 20px);
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nebula-enterprise {
+  flex: 1 1 calc(100% - 20px);
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+}
+
+.company-box {
+  display: flex;
+  background-color: #ffffff;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.company-image {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 5px 0 0 5px;
+}
+
+.company-content {
+  padding: 20px;
+}
+
+/* Style the h3 and p tags */
+.contact-box h3 {
+  color: #333;
+}
+
+.contact-box p {
+  color: #555;
+}
+
+/* Style the link to the home page */
+.contact-box a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Style the Nebula Enterprise content */
+.nebula-enterprise h2 {
+  color: #333;
+}
+
+.nebula-enterprise p {
+  color: #555;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .contact-box {
+    flex: 1 1 calc(100% - 20px);
+  }
+
+  .nebula-enterprise {
+    flex: 1 1 calc(100% - 20px);
+  }
+
+  .company-box {
+    flex-direction: column;
+  }
+
+  .company-image {
+    max-width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+}

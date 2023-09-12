@@ -1,0 +1,12 @@
+/* Apply a border-radius to the images and change cursor on hover */
+.Box img {
+    border-radius: 10px; /* Add desired border-radius */
+    cursor: pointer; /* Change cursor type to hand on hover */
+  }
+  
+  /* Apply hover effect on the images */
+  .Box img:hover {
+    transform: scale(1.05); /* Scale up the image slightly on hover */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+  

@@ -1,0 +1,61 @@
+/* Default styles for larger screens */
+.banner {
+  position: relative;
+  background-image: url('https://img.freepik.com/premium-vector/b2b-business-business-partnership-collaboration-concept-business-characters-shaking-hands-company-cooperation-transaction-services-poster-banner-flyer-cartoon-people-vector-illustration_87771-14484.jpg?w=2000');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-button,
+.login-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.signup-button:hover,
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+/* Media query for responsiveness on smaller screens */
+@media (max-width: 768px) {
+  .banner {
+    padding: 50px 0; /* Decrease padding for smaller screens */
+  }
+
+  .banner h1 {
+    font-size: 2rem; /* Decrease font size for smaller screens */
+    margin-bottom: 10px; /* Adjust spacing for smaller screens */
+  }
+
+  .banner p {
+    font-size: 1rem; /* Decrease font size for smaller screens */
+    margin-bottom: 20px; /* Adjust spacing for smaller screens */
+  }
+}
